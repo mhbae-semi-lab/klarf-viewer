@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-21T16:07:34.235Z",
+  "mode": "headless",
+  "runs": [
+    {
+      "key": "big",
+      "version": "1.2",
+      "defects": 1000000,
+      "mb": 67.5,
+      "workerParseS": 1.96,
+      "readCheckS": 2.29,
+      "firstDrawS": 0.1,
+      "totalS": 2.39,
+      "errors": [],
+      "heapMB": 182,
+      "pan": {
+        "frames": 497,
+        "fps": 165,
+        "medianMs": 6.1,
+        "p95Ms": 6.2,
+        "maxMs": 7.9
+      },
+      "zoom": {
+        "fps": 165.1,
+        "medianMs": 6.1,
+        "p95Ms": 6.3
+      }
+    },
+    {
+      "key": "big18",
+      "version": "1.8",
+      "defects": 1000000,
+      "mb": 68.3,
+      "workerParseS": 1.89,
+      "readCheckS": 2.24,
+      "firstDrawS": 0.07,
+      "totalS": 2.31,
+      "errors": [],
+      "heapMB": 246,
+      "pan": {
+        "frames": 496,
+        "fps": 165,
+        "medianMs": 6.1,
+        "p95Ms": 6.2,
+        "maxMs": 7.4
+      },
+      "zoom": {
+        "fps": 165,
+        "medianMs": 6.1,
+        "p95Ms": 6.2
+      }
+    }
+  ],
+  "renderer": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.0.0 Safari/537.36"
+}

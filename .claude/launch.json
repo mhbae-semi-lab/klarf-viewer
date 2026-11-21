@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "klarf-viewer", "runtimeExecutable": "python", "runtimeArgs": ["tools/serve.py", "8753"], "port": 8753 }
+  ]
+}
